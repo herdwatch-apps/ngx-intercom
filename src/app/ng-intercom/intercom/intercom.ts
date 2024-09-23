@@ -61,7 +61,7 @@ export class Intercom {
     }
     const app_id = intercomData.app_id ? intercomData.app_id : this.config.appId
     if (!app_id) {
-      throw new Error('Please provide Intercom app_id either in module config or in the `boot()` method');
+      throw new Error('Please provide Intercom app_id either in module config or in the `boot()` method')
     }
     // Run load and attach to window
     this.loadIntercom(this.config, (event?: Event) => {
@@ -199,6 +199,15 @@ export class Intercom {
    */
   public startTour(tourId: number): void {
     return this._callIntercom('startTour', tourId)
+  }
+
+  /**
+   * If you would like to trigger an article in the Messenger, you can use the showArticle method.
+   * The article will be shown within the Messenger, and clicking the Messenger back button will return to the previous context.
+   * If the Messenger is closed when the method is called, it will be opened first and then the article will be shown.
+   */
+  public showArticle(articleId: string | number): void {
+    return this._callIntercom('showArticle', articleId)
   }
 
   /**
