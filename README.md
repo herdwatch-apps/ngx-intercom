@@ -1,7 +1,7 @@
-# @supy-io/ngx-intercom
+# @herdwatch-apps/ngx-intercom
 
-[![npm](https://img.shields.io/npm/v/@supy-io/ngx-intercom.svg)](https://www.npmjs.com/package/@supy-io/ngx-intercom)
-[![npm](https://img.shields.io/npm/dm/@supy-io/ngx-intercom.svg)](https://www.npmjs.com/@supy-io/ngx-intercom)
+[![npm](https://img.shields.io/npm/v/@herdwatch-apps/ngx-intercom.svg)](https://www.npmjs.com/package/@herdwatch-apps/ngx-intercom)
+[![npm](https://img.shields.io/npm/dm/@herdwatch-apps/ngx-intercom.svg)](https://www.npmjs.com/@herdwatch-apps/ngx-intercom)
 
 [//]: # ([![Build status][ci-image]][ci-url])
 [![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
@@ -12,7 +12,7 @@ It intends to support all documented intercom methods and PRs for functionality 
 
 ### STABLE VERSION
 
-`master` is now hosting the latest stable version of `@supy-io/ngx-intercom`.
+`master` is now hosting the latest stable version of `@herdwatch-apps/ngx-intercom`.
 
 If you find issues with this version, please file an issue as soon as possible so we can take a look at it. We appreciate your cooperation!
 
@@ -20,7 +20,7 @@ If you find issues with this version, please file an issue as soon as possible s
 
 This package is on NPM, so just run
  ```sh
-$ npm install @supy-io/ngx-intercom@latest
+$ npm install @herdwatch-apps/ngx-intercom@latest
  ```
 
 ### Configuration
@@ -28,7 +28,7 @@ $ npm install @supy-io/ngx-intercom@latest
 1. Import `IntercomModule` to `app.module.ts`. The module will automatically include the APP_ID instantiation, so you DO NOT need to copy the install script from Intercom and place it in your `index.html`.
 
 ```ts
-import { IntercomModule } from '@supy-io/ngx-intercom';
+import { IntercomModule } from '@herdwatch-apps/ngx-intercom';
 
 @NgModule({
   imports: [
@@ -48,7 +48,7 @@ export class AppModule { }
 ```ts
 // App
 import { Component, OnInit } from '@angular/core';
-import { Intercom } from '@supy-io/ngx-intercom';
+import { Intercom } from '@herdwatch-apps/ngx-intercom';
 
 @Component({
   selector: 'app',
@@ -85,6 +85,6 @@ To publish `npm run build:dist && npm publish ./dist`
 Maintained by [Scott Wyatt](https://github.com/scott-wyatt) and [Wilson Hobbs](https://www.twitter.com/wbhob) in 2017 with contributions from [Florian Reifschneider](https://github.com/flore2003), [Devon Sams](https://www.twitter.com/POS1TRON), [Humberto Rocha](https://github.com/humrochagf), and [Luca GOUTY](http://luca.gouty.fr)
 
 
-[ci-image]: https://img.shields.io/circleci/project/github/CaliStyle/@supy-io/ngx-intercom/master.svg
+[ci-image]: https://img.shields.io/circleci/project/github/CaliStyle/@herdwatch-apps/ngx-intercom/master.svg
 
-[//]: # ([ci-url]: https://circleci.com/gh/CaliStyle/@supy-io/ngx-intercom/tree/master)
+[//]: # ([ci-url]: https://circleci.com/gh/CaliStyle/@herdwatch-apps/ngx-intercom/tree/master)
