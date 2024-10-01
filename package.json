@@ -1,10 +1,10 @@
 {
   "name": "@herdwatch/ngx-intercom",
-  "version": "14.2.14",
+  "version": "14.2.15",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/supy-io/ngx-intercom.git"
+    "url": "git+https://github.com/herdwatch-apps/ngx-intercom.git"
   },
   "keywords": [
     "Intercom",
@@ -17,9 +17,9 @@
     "Luca GOUTY (http://luca.gouty.fr)"
   ],
   "bugs": {
-    "url": "https://github.com/supy-io/ngx-intercom/issues"
+    "url": "https://github.com/herdwatch-apps/ngx-intercom/issues"
   },
-  "homepage": "https://github.com/supy-io/ngx-intercom#readme",
+  "homepage": "https://github.com/herdwatch-apps/ngx-intercom#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json",
